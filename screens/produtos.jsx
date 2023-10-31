@@ -44,7 +44,7 @@ export default function Produtos({navigation}) {
 
             <TextInput style={styles.input} placeholder="procurar" />
 
-            <Text style={styles.subtitle}>Drinks</Text>
+            <Text style={styles.subtitle}>Produtos</Text>
 
             <ScrollView style={styles.scroll}>
                 {produtos.map(p => <CardProduto key={p.id} produto={p}/>)}
